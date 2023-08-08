@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(0, 0, 51);
+}
+
+.container .navbar {
+  width: 1000px;
+}
+.container .navbar .son1 {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.container .navbar .son2 {
+  color: #fff;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.container .marj ul {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.container .marj li a {
+  margin: 20px;
+}
+.container .nav-a {
+  display: inline-block;
+  font-weight: 700;
+  padding: 12px 50px;
+  background: transparent;
+  border: 1px solid blue;
+  color: blue;
+  border-radius: 15px;
+  letter-spacing: -0.1;
+}
+.container .nav-a:hover {
+  transition: all 0.3s ease;
+  background-color: blue;
+  color: #fff;
+}
+.container .boxlar {
+  display: flex;
+  margin-top: 80px;
+  position: relative;
+}
+.container .boxlar .item1 {
+  border: 1px solid #03009c;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  margin-left: 290px;
+  background: rgb(0, 17, 101);
+  background: radial-gradient(circle, rgb(0, 17, 101) 7%, rgba(252, 70, 107, 0) 100%);
+  box-shadow: rgba(6, 6, 255, 0.25) 0px 30px 60px -12px inset, rgba(17, 0, 255, 0.3) 0px 18px 36px -18px inset;
+}
+.container .boxlar .item1 .rasm1 {
+  margin-top: 77px;
+  margin-left: 80px;
+  border-bottom-right-radius: 20px;
+}
+.container .boxlar .item1 .yozuv {
+  color: #fff;
+  margin-top: -380px;
+  margin-left: 30px;
+  width: 320px;
+}
+.container .boxlar .item1 .yozuv .aziz1 {
+  font-size: 16px;
+  color: rgb(184, 184, 184);
+}
+.container .boxlar .item1 .yozuv .aziz2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.container .boxlar .item1 .yozuv .aziz3 {
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  color: blue;
+  background: transparent;
+  border: none;
+  margin-left: -25px;
+  margin-top: 20px;
+}
+.container .boxlar .item1 .yozuv .fa-right-long {
+  margin-left: 5px;
+}
+.container .boxlar .item2 {
+  border: 1px solid #03009c;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  margin-left: 70px;
+  background: rgb(0, 17, 101);
+  background: radial-gradient(circle, rgb(0, 17, 101) 7%, rgba(252, 70, 107, 0) 100%);
+  box-shadow: rgba(6, 6, 255, 0.25) 0px 30px 60px -12px inset, rgba(17, 0, 255, 0.3) 0px 18px 36px -18px inset;
+}
+.container .boxlar .item2 .rasm2 {
+  margin-top: 77px;
+  margin-left: 75px;
+  border-bottom-right-radius: 20px;
+}
+.container .boxlar .item2 .yozuv {
+  color: #fff;
+  margin-top: -380px;
+  margin-left: 30px;
+  width: 350px;
+}
+.container .boxlar .item2 .yozuv .aziz1 {
+  font-size: 14px;
+  color: rgb(184, 184, 184);
+}
+.container .boxlar .item2 .yozuv .aziz2 {
+  font-size: 23px;
+  margin-top: 5px;
+}
+.container .boxlar .item2 .yozuv .aziz3 {
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  color: blue;
+  background: transparent;
+  border: none;
+  margin-left: -25px;
+  margin-top: 20px;
+}
+.container .boxlar .item2 .yozuv .fa-right-long {
+  margin-left: 5px;
+}
+.container .boxlar .item3 {
+  border: 1px solid #03009c;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  margin-left: 70px;
+  background: rgb(0, 17, 101);
+  background: radial-gradient(circle, rgb(0, 17, 101) 7%, rgba(252, 70, 107, 0) 100%);
+  box-shadow: rgba(6, 6, 255, 0.25) 0px 30px 60px -12px inset, rgba(17, 0, 255, 0.3) 0px 18px 36px -18px inset;
+}
+.container .boxlar .item3 .rasm3 {
+  margin-top: 77px;
+  margin-left: 75px;
+  border-bottom-right-radius: 20px;
+}
+.container .boxlar .item3 .yozuv {
+  color: #fff;
+  margin-top: -380px;
+  margin-left: 30px;
+  width: 370px;
+}
+.container .boxlar .item3 .yozuv .aziz1 {
+  font-size: 16px;
+  color: rgb(184, 184, 184);
+}
+.container .boxlar .item3 .yozuv .aziz2 {
+  font-size: 20px;
+  margin-top: 3px;
+}
+.container .boxlar .item3 .yozuv .aziz3 {
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  color: blue;
+  background: transparent;
+  border: none;
+  margin-left: -25px;
+  margin-top: 20px;
+}
+.container .boxlar .item3 .yozuv .fa-right-long {
+  margin-left: 5px;
+}
+.container .boxlar {
+  display: flex;
+  margin-top: 80px;
+  position: relative;
+}
+.container .boxlar .item4 {
+  border: 1px solid #03009c;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  margin-left: 290px;
+  background: rgb(0, 17, 101);
+  background: radial-gradient(circle, rgb(0, 17, 101) 7%, rgba(252, 70, 107, 0) 100%);
+  box-shadow: rgba(6, 6, 255, 0.25) 0px 30px 60px -12px inset, rgba(17, 0, 255, 0.3) 0px 18px 36px -18px inset;
+}
+.container .boxlar .item4 .rasm1 {
+  margin-top: 77px;
+  margin-left: 80px;
+  border-bottom-right-radius: 20px;
+}
+.container .boxlar .item4 .yozuv {
+  color: #fff;
+  margin-top: -380px;
+  margin-left: 30px;
+  width: 320px;
+}
+.container .boxlar .item4 .yozuv .aziz1 {
+  font-size: 16px;
+  color: rgb(184, 184, 184);
+}
+.container .boxlar .item4 .yozuv .aziz2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.container .boxlar .item4 .yozuv .aziz3 {
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  color: blue;
+  background: transparent;
+  border: none;
+  margin-left: -25px;
+  margin-top: 20px;
+}
+.container .boxlar .item4 .yozuv .fa-right-long {
+  margin-left: 5px;
+}
+.container .boxlar .item5 {
+  border: 1px solid #03009c;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  margin-left: 70px;
+  background: rgb(0, 17, 101);
+  background: radial-gradient(circle, rgb(0, 17, 101) 7%, rgba(252, 70, 107, 0) 100%);
+  box-shadow: rgba(6, 6, 255, 0.25) 0px 30px 60px -12px inset, rgba(17, 0, 255, 0.3) 0px 18px 36px -18px inset;
+}
+.container .boxlar .item5 .rasm2 {
+  margin-top: 77px;
+  margin-left: 75px;
+  border-bottom-right-radius: 20px;
+}
+.container .boxlar .item5 .yozuv {
+  color: #fff;
+  margin-top: -380px;
+  margin-left: 30px;
+  width: 350px;
+}
+.container .boxlar .item5 .yozuv .aziz1 {
+  font-size: 14px;
+  color: rgb(184, 184, 184);
+}
+.container .boxlar .item5 .yozuv .aziz2 {
+  font-size: 23px;
+  margin-top: 5px;
+}
+.container .boxlar .item5 .yozuv .aziz3 {
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  color: blue;
+  background: transparent;
+  border: none;
+  margin-left: -25px;
+  margin-top: 20px;
+}
+.container .boxlar .item5 .yozuv .fa-right-long {
+  margin-left: 5px;
+}
+.container .boxlar .item6 {
+  border: 1px solid #03009c;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  margin-left: 70px;
+  background: rgb(0, 17, 101);
+  background: radial-gradient(circle, rgb(0, 17, 101) 7%, rgba(252, 70, 107, 0) 100%);
+  box-shadow: rgba(6, 6, 255, 0.25) 0px 30px 60px -12px inset, rgba(17, 0, 255, 0.3) 0px 18px 36px -18px inset;
+}
+.container .boxlar .item6 .rasm3 {
+  margin-top: 77px;
+  margin-left: 75px;
+  border-bottom-right-radius: 20px;
+}
+.container .boxlar .item6 .yozuv {
+  color: #fff;
+  margin-top: -380px;
+  margin-left: 30px;
+  width: 370px;
+}
+.container .boxlar .item6 .yozuv .aziz1 {
+  font-size: 16px;
+  color: rgb(184, 184, 184);
+}
+.container .boxlar .item6 .yozuv .aziz2 {
+  font-size: 20px;
+  margin-top: 3px;
+}
+.container .boxlar .item6 .yozuv .aziz3 {
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  color: blue;
+  background: transparent;
+  border: none;
+  margin-left: -25px;
+  margin-top: 20px;
+}
+.container .boxlar .item6 .yozuv .fa-right-long {
+  margin-left: 5px;
+}/*# sourceMappingURL=styel.css.map */
